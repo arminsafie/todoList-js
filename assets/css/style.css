@@ -35,7 +35,14 @@ li {
   justify-content: space-between;
   padding: 10px;
   border-bottom: 1px solid #ddd;
+
 }
+
+
+
+
+
+
 .btn{
   border: 1px solid transparent;
   padding: .3rem 1rem ;
@@ -55,4 +62,22 @@ li {
 .completed {
   text-decoration: line-through;
   color: #888;
+}
+
+.d-flex{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn-2{
+  border: none;
+  border-radius: 0;
+  background-color: transparent;
+  font-size: 2rem;
+
+}
+.mt-s{
+  margin-top: 5px;
 }
