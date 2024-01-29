@@ -1,0 +1,58 @@
+body {
+  font-family: 'Dancing Script', cursive;
+  background-color: #000;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 2rem;
+  text-align: center;
+  box-shadow: .5rem .5rem 5rem rgb(0, 128, 255);
+  transition: all .5s;
+}
+.container:hover{
+  transform: scale(1.2);
+  box-shadow: 1rem 1rem 8rem rgb(0, 128, 255);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.btn{
+  border: 1px solid transparent;
+  padding: .3rem 1rem ;
+  background-color: rgb(63, 185, 225);
+  border-radius: 2rem;
+}
+.input{
+  padding: .3rem 1rem ;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+.box-1{
+  display: flex; 
+  gap: 1rem;
+  align-items: center;
+}
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
